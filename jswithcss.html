@@ -1,0 +1,38 @@
+<style>
+    div{
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        transition: 2s;
+        border-radius: 2px;
+        border-color: black;
+        border-style: solid;
+    }
+    button{
+        font-style: italic;
+        font-size: medium;
+        font-weight: bold;
+        border-radius: 2px;
+    }
+    .width{
+        width: 200px;
+        height: 200px;
+    }
+</style>
+
+<center>
+<div id="box"></div>
+<br>
+<button onclick="Change()">Click to Change</button>
+</center>
+
+<script>
+    var box=document.getElementById("box")
+   
+    function Change()
+    {
+        box.style.backgroundColor="red"
+        box.setAttribute("class","width")
+    }
+
+</script>

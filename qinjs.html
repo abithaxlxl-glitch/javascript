@@ -1,0 +1,13 @@
+<input id="boxx" onkeyup="clickk()">
+<button>Click</button>
+<h1 id="textt"></h1>
+
+<script>
+    var boxx=document.getElementById("boxx")
+    var textt=document.getElementById("textt")
+
+    function clickk()
+    {
+        textt.textContent=boxx.value
+    }
+</script>
